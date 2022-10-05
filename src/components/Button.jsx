@@ -1,7 +1,7 @@
 function Button() {
     return ( 
         <div className="button-style">
-            <button>Ingresar</button>
+            <button>Iniciar sesion</button>
         </div>
      );
 }

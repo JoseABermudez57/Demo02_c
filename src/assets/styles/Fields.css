@@ -1,3 +1,8 @@
 .field{
     margin: 16px;
 }
+
+.field input{
+    height: 30px;
+    border-radius: 10px;
+}
