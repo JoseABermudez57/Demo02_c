@@ -8,9 +8,11 @@ function Contenedor() {
     <>
       <center>
         <div className="wrapper">
-          <Email />
-          <Password />
-          <Button />
+          <form action="">
+            <Email />
+            <Password />
+            <Button />
+          </form>
         </div>
       </center>
     </>
