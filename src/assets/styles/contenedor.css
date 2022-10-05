@@ -1,12 +1,10 @@
 .wrapper {
-  text-align: center;
   background-color: #fff9e6;
   border-radius: 10px;
   border: 1px black solid;
   width: 50%;
   box-shadow: 0px 0px 30px black;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 20px;
 }
 
 .wrapper img{
