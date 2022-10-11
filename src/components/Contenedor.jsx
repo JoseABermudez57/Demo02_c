@@ -1,5 +1,8 @@
 import "../assets/styles/contenedor.css";
-import Email from "./Email";
+//import Email from "./Email";
+import Name from "./Name";
+import LastName from "./LastName";
+import Username from "./Username";
 import Password from "./Password";
 import Button from "./Button";
 
@@ -9,7 +12,9 @@ function Contenedor() {
       <center>
         <div className="wrapper">
           <form action="">
-            <Email />
+            <Name />
+            <LastName />
+            <Username />
             <Password />
             <Button />
           </form>
