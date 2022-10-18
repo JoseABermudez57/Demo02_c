@@ -4,7 +4,7 @@ function LastName() {
     return ( 
         <div className="field">
             <label>Last Name: </label>
-            <input type="text" id="usernme" />  
+            <input type="text" id="usernme" value={lastname}/>  
         </div>
      );
 }

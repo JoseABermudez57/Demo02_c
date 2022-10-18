@@ -4,7 +4,7 @@ function Username() {
     return ( 
         <div className="field">
             <label>Username: </label>
-            <input type="text" id="usernme" />  
+            <input type="text" id="usernme" value={username}/>  
         </div>
      );
 }

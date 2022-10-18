@@ -4,7 +4,7 @@ function Header() {
   return (
     <center>
       <header>        
-          <h1>LOGIN</h1>
+          <h1>Registro</h1>
       </header>
     </center>
   );

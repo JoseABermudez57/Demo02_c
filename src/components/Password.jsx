@@ -4,7 +4,7 @@ function Password() {
     return ( 
         <div className="field">
             <label>Password: </label>
-            <input type="password" name="" id="" />
+            <input type="password" value={password}/>
         </div>
      );
 }

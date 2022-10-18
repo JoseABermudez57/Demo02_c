@@ -1,8 +1,14 @@
 .field{
     margin: 16px;
+    
 }
 
 .field input{
     height: 30px;
     border-radius: 10px;
+}
+
+.field label{
+    font-size: 150%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
