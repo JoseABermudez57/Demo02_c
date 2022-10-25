@@ -1,0 +1,11 @@
+.card-character{
+    display: flex;
+    color: white;
+}
+
+.card-character img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card-character:hover img {-webkit-transform:scale(1.3);transform:scale(1.3);}

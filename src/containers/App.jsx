@@ -1,14 +1,14 @@
 import Layout from "./Layout";
-import Contenedor from "../components/Contenedor"
+import Characters from "./Characters";
 
 function App() {
-    return ( 
-        <>
-            <Layout>
-            <Contenedor />                                   
-            </Layout>
-        </>
-     );
+  return (
+    <div>
+      <Layout>
+        <Characters />
+      </Layout>
+    </div>
+  );
 }
 
 export default App;
