@@ -1,9 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext} from 'react';
 import Card from '../components/Card';
+import CharacterContext from '../context/CharacterContext';
 import '../assets/styles/character.css'
 
 function Characters () {
+
     const[apiData, setApiData] = useState(null)
+
+    const value = useContext(CharacterContext); // Usare el contexto de CharacterContext
+    //console.log(JSON.stringify(value));
 
     useEffect(() => {
         fetch('https://rickandmortyapi.com/api/character')
